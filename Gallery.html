@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>halaman utama</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #99ff99;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url("bg4.png");
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #556B2F;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #F5FFFA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #32CD32;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #99ff99;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #F5FFFA;
+  padding: 20px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #556B2F;
+  color: #F5FFFA;
+  margin-top: 20px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Indonesian Tourism</h1>
+  <h2>In Komodo Island</h2>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="Gallery.html">Gallery</a>
+  <a href="About Us.html">About Us</a>
+  <a href="Contact Us.html" style="float:right">Contact Us</a>
+</div>
+
+<div class="row">
+    <div class="card">
+      <h2>GALLERY OF WISATA PULAU KOMODO</h2>
+      <h4>Beberapa Foto Wisata Yang Ada Di Pulau Komodo</h4>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="gililawa1.jpg" alt="GILI LAWA" width="600" height="400">
+    <div class="desc">GILI LAWA</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="gililawa2.jpg" alt="GILI LAWA" width="600" height="400">
+    <div class="desc">GILI LAWA</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="gililawa3.jpg" alt="GILI LAWA" width="600" height="400">
+    <div class="desc">GILI LAWA</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="gililawa4.jpg" alt="GILI LAWA" width="600" height="400">
+    <div class="desc">GILI LAWA</div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="pulaurinca1.jpeg" alt="PULAU RINCA" width="600" height="400">
+    <div class="desc">PULAU RINCA</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="pulaurinca2.jpg" alt="PULAU RINCA" width="600" height="400">
+    <div class="desc">PULAU RINCA</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="pulaurinca3.jpeg" alt="PULAU RINCA" width="600" height="400">
+    <div class="desc">PULAU RINCA</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="pulaurinca4.jpg" alt="PULAU RINCA" width="600" height="400">
+    <div class="desc">PULAU RINCA</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="mantapoint1.jpg" alt="MANTA POINT" width="600" height="400">
+    <div class="desc">MANTA POINT</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="mantapoint2.jpg" alt="MANTA POINT" width="600" height="400">
+    <div class="desc">MANTA POINT</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="mantapoint3.jpg" alt="MANTA POINT" width="600" height="400">
+    <div class="desc">MANTA POINT</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="mantapoint4.jpg" alt="MANTA POINT" width="600" height="400">
+    <div class="desc">MANTA POINT</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="pinkbeach1.jpg" alt="PINK BEACH" width="600" height="400">
+    <div class="desc">PINK BEACH</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="pinkbeach2.jpeg" alt="PINK BEACH" width="600" height="400">
+    <div class="desc">PINK BEACH</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="pinkbeach3.jpg" alt="PINK BEACH" width="600" height="400">
+    <div class="desc">PINK BEACH</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="pinkbeach4.jpg" alt="PINK BEACH" width="600" height="400">
+    <div class="desc">PINK BEACH</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>Gambar - gambar diatas merupakan beberapa foto dari wisata pulau komodo</p>
+</div>
+
+    </div>
+</div>
+
+<div class="footer">
+  <p>Author : Kelompok 10</p>
+  <a href="https://www.indonesia.travel/gb/en/general-information/wonderful-indonesia"><img src="website.png" width="40" height="41"></a>
+  <a href="https://www.instagram.com/pesonaid_travel/"><img src="instagram.png" width="50" height="50"></a>
+  <a href="https://www.youtube.com/c/PesonaIndonesiaofficial"><img src="Youtube.png" width="50" height="50"></a>
+  <a href="https://twitter.com/pesonaid_travel?s=09"><img src="twitter.png" width="50" height="50"></a>
+  <a href="https://www.facebook.com/pesonaidtravel/"><img src="facebook.png" width="50" height="50"></a>
+</div>
+
+</body>
+</html>

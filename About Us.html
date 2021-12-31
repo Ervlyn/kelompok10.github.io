@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Us</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #99ff99 ;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+   background-image: url("bg4.png");
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #556B2F;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #F5FFFA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:  #32CD32;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #99ff99;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-image: #aaa;
+  width: 100%;
+  background-repeat:no-repeat;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #F5FFFA;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #556B2F;
+  color: #F5FFFA;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, 
+make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, 
+make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Indonesian Tourism</h1>
+  <h2>In Komodo Island</h2>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="Gallery.html">Gallery</a>
+  <a href="About Us.html">About Us</a>
+  <a href="Contact Us.html" style="float:right">Contact Us</a>
+</div>
+
+<div class="row">
+    <div class="card">
+      <h2 style="text-align:center">Our Team</h2>
+
+      <div class="row">
+        <div class="column">
+          <div class="card2">
+            <img src="Yovanaa.jpeg" alt="Yovana " style="width:100%"height="300">
+            <div class="container">
+              <h2>It's About Yovana </h2>
+              <p class="title">Home Page</p>
+              <p>Yovana atau lebih dikenal dengan nama yoyo merupakan mahasiswa aktif Universitas Bunda Mulia semester 7 dengan peminatan Manajemen Keuangan. Berikut merupakan data diri dari yovana : </p>
+			  <ul type="disc">
+			     <li> Nama	: Yovana</li>
+				 <li> Nim	: 12180018</li>
+				 <li> Kelas	: 7PMN1 </li>
+				 <li> Tugas	: Membuat Home Page & WireFrame Home</li>
+			</ul>
+              <p>yoyovanaa7@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card2">
+            <img src="Geby.Jpeg" alt="Gabriella" style="width:100%"height="300">
+            <div class="container">
+              <h2>It's About Gabriella Ratu D</h2>
+              <p class="title"> About Us Page</p>
+              <p> Gabriella Ratu Desphin atau lebih dikenal dengan nama Gaby merupakan mahasiswa aktif Universitas Bunda Mulia Semester 7 dengan peminatan Manajemen Sumber Daya Manusia. Berikut merupakan data diri dari Gaby : </p>
+              <ul type="disc">
+			     <li> Nama	: Gabriella Ratu Desphin</li>
+				 <li> Nim	: 12180020</li>
+				 <li> Kelas	: 7PMN1</li>
+				 <li> Tugas	: Membuat About Us  Page & WireFrame About Us</li>
+			</ul>
+			  <p>Gratudesphin@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card2">
+            <img src="Ervlyn.jpeg" alt="Ervlyn" style="width:100%"height="300">
+            <div class="container">
+              <h2>It's About Ervlyn</h2>
+              <p class="title">Contact Us Page</p>
+              <p> Ervlyn Wisata atau dikenal dengan nama Ervlyn merupakan mahasiswa aktif Universitas Bunda Mulia semester 9 dengan peminatan Manajemen Sumber Daya Manusia. Berikut merupakan data diri dari Ervlyn : </p>
+              <ul type="disc">
+			     <li> Nama	: Ervlyn Wisata</li>
+				 <li> Nim	: 12170048</li>
+				 <li> Kelas	: 7PMN1</li>
+				 <li> Tugas	: Membuat Contact Us Page & WireFrame Contact Us </li>
+			</ul>
+			 <p>Ervlynwisata@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <div class="card2">
+              <img src="Steven.Jpeg" alt="Steven" style="width:100%"height="300">
+              <div class="container">
+                <h2>It's About Steven </h2>
+                <p class="title">Page Gallery </p>
+                <p>Steven atau dengan panggilan steven merupakan mahasiswa aktif Universitas Bunda Mulia semester 7 dengan peminatan Manajemen Strategi Bisnis. Berikut merupakan data diri dari Steven :  </p>
+                <ul type="disc">
+			     <li> Nama	: Steven </li>
+				 <li> Nim	: 12180144</li>
+				 <li> Kelas	: 7PMN1</li>
+				 <li> Tugas	: Membuat Gallery Page & WireFrame Gallery Page</li>
+			</ul>
+				<p>steven.steve@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+        
+          
+          </div>
+<div class="footer">
+  <p>Author : Kelompok 10</p>
+  <a href="https://www.indonesia.travel/gb/en/general-information/wonderful-indonesia"><img src="website.png" width="40" height="41"></a>
+  <a href="https://www.instagram.com/pesonaid_travel/"><img src="instagram.png" width="50" height="50"></a>
+  <a href="https://www.youtube.com/c/PesonaIndonesiaofficial"><img src="Youtube.png" width="50" height="50"></a>
+  <a href="https://twitter.com/pesonaid_travel?s=09"><img src="twitter.png" width="50" height="50"></a>
+  <a href="https://www.facebook.com/pesonaidtravel/"><img src="facebook.png" width="50" height="50"></a>
+</div>
+
+</body>
+</html>

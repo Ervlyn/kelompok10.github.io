@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>halaman utama</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #99ff99;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url("bg4.png");
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #556B2F;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #F5FFFA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #32CD32;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #99ff99;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #F5FFFA;
+  padding: 20px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #556B2F;
+  color: #F5FFFA;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Indonesian Tourism</h1>
+  <h2>In Komodo Island</h2>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="Gallery.html">Gallery</a>
+  <a href="About Us.html">About Us</a>
+  <a href="Contact Us.html" style="float:right">Contact Us</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Komodo Island</h2>
+	  <h4> and the best place in komodo island </h4>
+      <h5>29 Desember 2021</h5>
+	  <img src="pict1.jpeg" alt="image" width="800" height="500">
+      <p>Indonesia mempunyai berbagai kekayaan alam yang telah dikenal hingga kemancanegara, salah satunya adalah Pulau Komodo yang terletak di Kepulauan Nusa Tenggara Timur. Dimana pulau ini merupakan salah satu pulau yang masuk kedalam situs warisan dunia UNESCO yang harus dijaga kelestariannya. Dimana pulau ini merupakan habitat kadal terbesar didunia, yaitu Komodo. Tidak hanya itu saja selain wisatawan dapat melihat makhluk purba spesies kadal terbesar didunia, wisata di pulau komodo juga menyajikan panorama alam yang eksotis seperti perbukitan dan padang sabana yang mengagumkan. Oleh karena itu pulau-pulau disekitar Pulau Komodo juga sangat menarik untuk dikunjungi oleh wisatawan baik didalam negeri hingga ke mancanegara. Berikut merupakan spot yang dapat dikunjungi wisatawan ketika berkunjung ke Pulau Komodo</p>
+      
+	  <h4>PULAU RINCA</h4>
+	  <img src="pict2.jpg" alt="image" width="800" height="500">
+	  <p>Pulau Rinca juga merupakan salah satu pulau habitat komodo meski tidak sebanyak komodo yang ada di pulau Komodo, dimana di pulau ini wisatawan dapat menjelajahi beberapa trek baik panjang ataupun pendek untuk melihat komodo di habitat aslinya. Selain melihat komodo di pulau ini wisatawan juga dapat bersantai menikmati keindahan alam seperti menikmati pasir putih, mendaki bukit, hingga menyusuri hutan bakau.</p>
+    
+	  <h4>GILI LAWA</h4>
+	  <img src="pict3.jpg" alt="image" width="800" height="500">
+	  <p>Gili Lawa merupakan sebuah pulau kecil yang berada di sebelah utara Pulau Komodo. Dimana di Pulau ini wisatawan dapat menikmati keindahan laut dangkal yang berwarna biru kehijauan, yang mana pulau ini juga menjadi spot Snorkeling favorit karena keindahan panorama bawah laut dengan banyaknya spesies biota laut dan terumbu karang. Tidak hanya itu di pulau ini wisatawan dapat menikmati hamparan rumput kehijauan diperbukitan, dimana ketika sudah memasuki bulan Agustus atau September hamparan padang rumput ini akan mengering kemudian berubah warna menjadi coklat kekuningan sehingga membawa suasana seperti berada dipadang sabana.</p>
+	
+	  <h4>PINK BEACH</h4>
+	  <img src="pict4.jpg" alt="image" width="800" height="500">
+	  <p>Seperti namanya pantai ini menyuguhkan hamparan pasir pantai yang berwarna merah muda, sehingga menjadi destinasi favorit para wisatawan. Pink Beach sendiri berada dicekungan bagian selatan dari Pulau Komodo dimana merah muda pada pasir pantainya berasal dari batuan coral yang hancur dilautan, atau beberapa peneliti mengatakan bahwa pasir yang berwarna pink tersebut berasal dari hewan mikroskopik yang disebut firaminera. Selain menikmati keindahan pantai secara langsung wisatawan juga dapat menikmati keindahan Pink Beach dengan mendaki tebing yang berada disekitar pantai, sehingga panorama yang dinikmati dapat menjadi lebih menakjubkan. </p>
+	   
+	  <h4>Manta Point</h4>
+	  <img src="pict5.jpg" alt="image" width="800" height="500">
+	
+	  <p>Manta Point terletak di Loh Liang, Taman Nasional Komodo dimana objek wisata ini dapat ditempuh dengan waktu 25 menit dari Pink Beach. Dimana disini wisatawan dapat bercengkrama langsung dengan Manta, yaitu spesies ikan pari terbesar di dunia. Wisatawan dapat melihat pari manta melalui kapal atau melalui diving dan snorkeling sehingga wisatawan dapat berenang dan menyentuh secara langsung kawanan pari manta yang ada di pulau komodo, dan tentunya hal ini dapat dilakukan dengan pengawasan oleh guide profesional.</p>
+	  <p>Itu dia beberapa tempat wisata yang dapat dinikmati wisatawan baik dalam negeri dan mancanegara ketika berkunjung ke Pulau Komodo. Semoga dengan adanya informasi ini pembaca sekalian dapat tertarik untuk berlibur didalam negeri sendiri yaitu Indonesia yang mempunyai keindahan alam yang tidak kalah kerennya seperti yang berada di luar negeri sana.
+	</div>
+  </div>
+	  
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Indonesian Tourism</h2>
+	  <img src="pict7.png" alt="image" width="280" height="200">
+      <p>Indonesia mempunyai beragam destinasi wisata yang dapat dijelajahi oleh para wisatawan dalam negeri serta mancanegara. Untuk mendukung berkembangnya pariwisata di Indonesia hingga dikenal kemanca negara kita dapat melakukan langkah awal dengan menjelajahi destinasi wisata yang ada di Indonesia dibandingkan dengan bepergian keluar negeri. Oleh karena itu wisatawan dapat mencari destinasi wisata diberbagai tempat di Indonesia melalui situs Wonderful Indonesia yang merupakan salah satu program kementerian pariwisata untuk mempromosikan berbagai destinasi wisata yang ada di Indonesia agar dapat dikenal hingga kemanca negara. </p>
+    </div>
+      </div>
+</div>
+
+<div class="footer">
+  <p>Author : Kelompok 10</p>
+  <a href="https://www.indonesia.travel/gb/en/general-information/wonderful-indonesia"><img src="website.png" width="40" height="41"></a>
+  <a href="https://www.instagram.com/pesonaid_travel/"><img src="instagram.png" width="50" height="50"></a>
+  <a href="https://www.youtube.com/c/PesonaIndonesiaofficial"><img src="Youtube.png" width="50" height="50"></a>
+  <a href="https://twitter.com/pesonaid_travel?s=09"><img src="twitter.png" width="50" height="50"></a>
+  <a href="https://www.facebook.com/pesonaidtravel/"><img src="facebook.png" width="50" height="50"></a>
+</div>
+
+</body>
+</html>
