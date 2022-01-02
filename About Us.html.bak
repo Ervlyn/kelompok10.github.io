@@ -194,7 +194,7 @@ make the navigation links stack on top of each other instead of next to each oth
       
         <div class="column">
           <div class="card2">
-            <img src="Geby.jpeg" alt="Gabriella" style="width:100%"height="300">
+            <img src="Geby.Jpeg" alt="Gabriella" style="width:100%"height="300">
             <div class="container">
               <h2>It's About Gabriella Ratu D</h2>
               <p class="title"> About Us Page</p>
@@ -233,7 +233,7 @@ make the navigation links stack on top of each other instead of next to each oth
         <div class="row">
           <div class="column">
             <div class="card2">
-              <img src="Steven.jpeg" alt="Steven" style="width:100%"height="300">
+              <img src="Steven.Jpeg" alt="Steven" style="width:100%"height="300">
               <div class="container">
                 <h2>It's About Steven </h2>
                 <p class="title">Page Gallery </p>
