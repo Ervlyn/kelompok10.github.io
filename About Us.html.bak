@@ -187,14 +187,14 @@ make the navigation links stack on top of each other instead of next to each oth
 				 <li> Tugas	: Membuat Home Page & WireFrame Home</li>
 			</ul>
               <p>yoyovanaa7@gmail.com</p>
-              <p><button class="button">Contact</button></p>
+              <a href="whatsapp://send?text=Hello&phone=+6285771217968"><p><button class="button">Contact</button></p></a>
             </div>
           </div>
         </div>
       
         <div class="column">
           <div class="card2">
-            <img src="Geby.Jpeg" alt="Gabriella" style="width:100%"height="300">
+            <img src="Geby.jpeg" alt="Gabriella" style="width:100%"height="300">
             <div class="container">
               <h2>It's About Gabriella Ratu D</h2>
               <p class="title"> About Us Page</p>
@@ -206,7 +206,7 @@ make the navigation links stack on top of each other instead of next to each oth
 				 <li> Tugas	: Membuat About Us  Page & WireFrame About Us</li>
 			</ul>
 			  <p>Gratudesphin@gmail.com</p>
-              <p><button class="button">Contact</button></p>
+              <a href="whatsapp://send?text=Hello&phone=+6281313181356"><p><button class="button">Contact</button></p></a>
             </div>
           </div>
         </div>
@@ -224,8 +224,8 @@ make the navigation links stack on top of each other instead of next to each oth
 				 <li> Kelas	: 7PMN1</li>
 				 <li> Tugas	: Membuat Contact Us Page & WireFrame Contact Us </li>
 			</ul>
-			 <p>Ervlynwisata@gmail.com</p>
-              <p><button class="button">Contact</button></p>
+			 <a href="mailto:ervlynwisata@gmail.com"><p>ervlynwisata@gmail.com</p></a>
+              <a href="whatsapp://send?text=Hello&phone=+6281266598948"><p><button class="button">Contact</button></p></a>
             </div>
           </div>
         </div>
@@ -233,7 +233,7 @@ make the navigation links stack on top of each other instead of next to each oth
         <div class="row">
           <div class="column">
             <div class="card2">
-              <img src="Steven.Jpeg" alt="Steven" style="width:100%"height="300">
+              <img src="Steven.jpeg" alt="Steven" style="width:100%"height="300">
               <div class="container">
                 <h2>It's About Steven </h2>
                 <p class="title">Page Gallery </p>
@@ -244,8 +244,8 @@ make the navigation links stack on top of each other instead of next to each oth
 				 <li> Kelas	: 7PMN1</li>
 				 <li> Tugas	: Membuat Gallery Page & WireFrame Gallery Page</li>
 			</ul>
-				<p>steven.steve@gmail.com</p>
-                <p><button class="button">Contact</button></p>
+				<a href="mailto:steven.steve@gmail.com"><p>steven.steve@gmail.com</p></a>
+                <a href="whatsapp://send?text=Hello&phone=+6287788521531"><p><button class="button">Contact</button></p></a>
               </div>
             </div>
           </div>

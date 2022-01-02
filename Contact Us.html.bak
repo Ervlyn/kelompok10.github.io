@@ -92,7 +92,7 @@ body {
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  
 }
 
 .button:hover {
@@ -198,17 +198,18 @@ textarea {
   <div class="leftcolumn">
     <div class="card">
       <h2>Contact Us</h2>
-	  <div style="float:right"> <form>      
-  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-  <input name="email" type="text" class="feedback-input" placeholder="Email" />
-  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+	  <div style="float:right"> <form name="Contact Us Tugas Web Kelompok 10">      
+  <input name="Name" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="Email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="Comment" class="feedback-input" placeholder="Comment"></textarea>
   <input type="submit" value="SUBMIT"/>
 </form>
 </div>
+	   
+	  <img src="wa logo.png" width="40" height="40"><p><a href="whatsapp://send?text=Hello&phone=+6281290905348"><button class="button">+62 8129 0905 348</button></p></a>  
 	  
-	  <a href="whatsapp://send?text=Hello&phone=+6281266598948"><img src="wa logo.png" width="40" height="40"><h4>+62 8126-659-8948</h4></a>  
 	  
-	  <a href="mailto:tugasweb.kelompok10@gmail.com"><img src="mail logo.png" width="40" height="40"><h4>tugasweb.kelompok10@gmail.com</h4></a>
+	  <img src="mail logo.png" width="40" height="40"><p><a href="mailto:info@ubm.ac.id"><button class="button">tugasweb.kelompok10@gmail.com</button></p></a>
 	 
 	  
 	  <div class="mapouter">
@@ -221,8 +222,18 @@ textarea {
 	  <a>Kota Jakarta Utara</a>
 	  
 	 
-	  
 
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyp6cjOlSraQPsSjjc3NlJn9wKfv7pNi8SdQ3P2LQXJSSFkKqZrAberHQLLxkscnstgpw/exec'
+  const form = document.forms['Contact Us Tugas Web Kelompok 10']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 <div class="footer">
   <p>Author : Kelompok 10</p>
   <a href="https://www.indonesia.travel/gb/en/general-information/wonderful-indonesia"><img src="website.png" width="40" height="41"></a>
