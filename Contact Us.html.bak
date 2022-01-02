@@ -198,10 +198,10 @@ textarea {
   <div class="leftcolumn">
     <div class="card">
       <h2>Contact Us</h2>
-	  <div style="float:right"> <form name="Contact Us Tugas Web Kelompok 10">      
-  <input name="Name" type="text" class="feedback-input" placeholder="Name" />   
-  <input name="Email" type="text" class="feedback-input" placeholder="Email" />
-  <textarea name="Comment" class="feedback-input" placeholder="Comment"></textarea>
+	  <div style="float:right"> <form>      
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
   <input type="submit" value="SUBMIT"/>
 </form>
 </div>
@@ -221,18 +221,8 @@ textarea {
 	  <a>Kota Jakarta Utara</a>
 	  
 	 
+	  
 
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbyp6cjOlSraQPsSjjc3NlJn9wKfv7pNi8SdQ3P2LQXJSSFkKqZrAberHQLLxkscnstgpw/exec'
-  const form = document.forms['Contact Us Tugas Web Kelompok 10']
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
 <div class="footer">
   <p>Author : Kelompok 10</p>
   <a href="https://www.indonesia.travel/gb/en/general-information/wonderful-indonesia"><img src="website.png" width="40" height="41"></a>
